@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-primary-900 bg-beige-50;
+  }
+}
+
+@layer components {
+  input, textarea {
+    @apply p-2 border rounded-lg bg-beige-50 border-beige-200 focus:border-beige-400 focus:ring focus:ring-beige-200 focus:ring-opacity-50;
+  }
+}
